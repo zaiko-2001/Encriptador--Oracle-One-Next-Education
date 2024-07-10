@@ -142,6 +142,7 @@ input[type="text"]::placeholder {
     font-size: 14px;
     font-family: "Inter", sans-serif;
     font-weight: 400;
+    
 }
 footer {
     display: flex;
@@ -178,6 +179,7 @@ background-color: #aab2d585;
 }
 .boton_copiar:hover {
 color: #072242;
+background-color: #aab2d585;
 }
 .boton_pegar:hover {
     background-color: #aab2d54d;
