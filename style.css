@@ -137,7 +137,7 @@ input[type="text"]::placeholder {
     border: 1px solid #0A3871;
     cursor: pointer;
 }
-.main_caja_1, main_caja_2 {
+.main_caja_1, .main_caja_2 {
     color: #0A3871;
     font-size: 14px;
     font-family: "Inter", sans-serif;
