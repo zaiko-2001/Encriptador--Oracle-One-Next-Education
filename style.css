@@ -171,21 +171,25 @@ color: #0A3871;
 
 .boton_cifrar:hover {
 background-color: #072242;
+transition: all 0.2s ease-in;
 
 }
 .boton_descifrar:hover {
 background-color: #aab2d585;
+transition: all 0.2s ease-in;
 
 }
 .boton_copiar:hover {
 color: #072242;
-background-color: #aab2d585;
+transition: all 0.2s ease-in;
 }
 .boton_pegar:hover {
     background-color: #aab2d54d;
+    transition: all 0.2s ease-in;
 }
 #clear-input:hover {
     background-color: #aab2d54d;
+    transition: all 0.2s ease-in;
 }
 /*Responsivo*/
 
