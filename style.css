@@ -181,6 +181,7 @@ transition: all 0.2s ease-in;
 }
 .boton_copiar:hover {
 color: #072242;
+background-color: #aab2d585;
 transition: all 0.2s ease-in;
 }
 .boton_pegar:hover {
