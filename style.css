@@ -1,0 +1,257 @@
+/* Importación de fuentes desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Foldit:wght@100..900&family=Oswald:wght@200..700&family=Playwrite+CU:wght@100..400&family=Quicksand:wght@300..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+/* Estilos para la barra de navegación */
+.navbar {
+    background: url(images/fondo.png), #2c2c2c;
+    background: url(images/fondo.png), -webkit-gradient(linear, right top, left top, from(#2c2c2c), to(#868686));
+    background: url(images/fondo.png), linear-gradient(to left, #2c2c2c, #868686);
+}
+
+/* Estilos para el cuerpo de la página */
+body {
+    background: url(images/fondo.png), #2c2c2c;
+    background: url(images/fondo.png), -webkit-gradient(linear, right top, left top, from(#2c2c2c), to(#868686));
+    background: url(images/fondo.png), linear-gradient(to left, #2c2c2c, #868686);
+    font-family: "Quicksand", sans-serif; /* Fuente para el cuerpo */
+}
+
+/* Estilos para los campos de texto */
+input[type="text"] {
+    color: #0d0d0e;
+    background-color: rgba(243, 236, 236, 0); 
+    border: none;
+    outline: none;
+    font-weight: 400;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+/* Estilos para los placeholders en los campos de texto */
+input[type="text"]::placeholder {
+    color: #0d0d0e;
+    font-weight: 400;
+}
+
+/* Efecto al pasar el ratón sobre el campo de texto */
+input[type="text"]:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+/* Estilos para el botón de limpiar y el icono de papelera */
+#clear-input, .trash {
+    display: block;
+    width: 60px;
+    padding: 4px 0; 
+    font-size: 25px; 
+    font-weight: 1000;
+    text-decoration: none;
+    background-color: rgba(82, 82, 82, 0);
+    color: #d30a0aa4;
+    cursor: pointer;
+    border: none;
+}
+
+/* Efecto al pasar el ratón sobre el botón de limpiar */
+#clear-input:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+/* Efecto al hacer clic en el icono de papelera */
+.trash:active {
+    color: #4d0404a4;
+    transition: 0.2s;
+}
+
+/* Estilos para los contenedores rectangulares */
+.rectangulo {
+    background-color: rgba(243, 236, 236, 0.3);
+    border-radius: 16px;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+}
+.resultado{
+    font-size: 20px;
+    font-weight: 500;
+}
+/* Efecto al pasar el ratón sobre el contenedor rectangular */
+.rectangulo:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+/* Estilos para el botón de pegar */
+.boton_pegar {
+    display: block;
+    width: 60px;
+    padding: 4px 0; 
+    font-size: 15px; 
+    font-weight: 1000;
+    text-decoration: none;
+    background-color: rgba(243, 236, 236, 0.4); 
+    color: #0A3871;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+}
+/* Efecto al pasar el ratón sobre el botón de limpiar */
+.boton_pegar:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+/* Efecto al hacer clic en el icono de papelera */
+.boton_pegar:active {
+    color: #051a35;
+    transition: 0.2s;
+}
+
+/* Estilos para los botones de copiar */
+.boton_copiar {
+    margin-top: 360px;
+    color: #070707;
+    background-color: rgba(243, 236, 236, 0.4); 
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    width: 288px; 
+    padding: 18px 0; 
+    border-radius: 8px; 
+    font-size: 14.4px; 
+    font-weight: 600;
+    border-style: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+}
+.boton_copiar:hover {
+    background-color: rgba(243, 236, 236, 0.6); 
+    transition: 0.3s;
+}
+.boton_copiar:active {
+    background-color: rgba(243, 236, 236, 0.8); 
+
+}
+
+/* Estilos para el contenedor de botones */
+.botones {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+/* Estilos para los botones de cifrar y descifrar */
+.boton_cifrar, .boton_descifrar {
+    text-align: center;
+    width: 288px; /* Reducido en un 0.9 */
+    padding: 18px 0; /* Reducido en un 0.9 */
+    font-size: 20px; /* Reducido en un 0.9 */
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+    border-style: none;
+}
+
+/* Estilos para los botones de cifrar */
+.boton_cifrar {
+    color: #070707;
+    background-color: rgba(243, 236, 236, 0.4); 
+    margin-right: 20px;
+}
+
+/* Estilos para los botones de descifrar */
+.boton_descifrar {
+    color: #070707;
+    background-color: rgba(243, 236, 236, 0.4); 
+}
+
+/* Efecto al pasar el ratón sobre los botones de cifrar y descifrar */
+.boton_cifrar:hover, .boton_descifrar:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+/* Efecto al hacer clic en los botones de cifrar y descifrar */
+.boton_cifrar:active, .boton_descifrar:active {
+    background-color: rgba(243, 236, 236, 0.7); 
+}
+
+/* Estilos para el texto principal */
+.main_frase {
+    margin-top: 220px;
+    font-size: 12px;
+    font-weight: 200;
+    color: #0d0d0e;
+    width: 300px; 
+    height: 13.5px; 
+    font-family: "Inter", sans-serif;
+}
+
+/* Estilos para el icono de candado */
+.lock {
+    color: #0A3871;
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+/* Estilos para el icono de candado desbloqueado */
+.unlock {
+    color: #d30a0aa4;
+    margin-right: 10px;
+    font-size: 30px;
+}
+/* Estilos para el icono de copia desbloqueado */
+.copy {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.notification {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    margin-top: -100px ;
+}
+footer {
+    margin-top: 15px;
+    font-weight: 500;
+    color: #0d0d0e;
+}
+a{
+    color: #0d0d0e;
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+/* Estilos para dispositivos con ancho máximo de 767px */
+@media screen and (max-width: 767px) {
+    .navbar-brand {
+        display: none; /* Oculta el logo de la barra de navegación */
+    }
+    .main {
+        max-width: 100%;
+        margin-bottom: 20px; /* Espacio inferior */
+    }
+    .boton_cifrar {
+        margin-bottom: 10px; /* Espacio inferior en el botón de cifrar */
+    }
+    .rectangulo {
+        max-width: auto; /* Ajusta el ancho máximo */
+        margin-bottom: 30px;
+    }
+    .boton_copiar {
+        max-width: 80%; /* Ajusta el ancho máximo */
+    }
+    .main_frase {
+        margin-top: 40px; /* Reduce el margen superior */
+    }
+    .boton_copiar {
+        margin-top: 80px;
+        margin-bottom: 10px;
+    }
+    .notification {
+        margin-top: -50px ;
+    }
+}
