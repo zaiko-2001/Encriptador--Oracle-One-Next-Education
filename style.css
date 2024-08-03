@@ -224,6 +224,9 @@ a{
     margin-left: 10px;
     font-size: 25px;
 }
+a:hover {
+    color: #2c2c2c;
+}
 
 /* Estilos para dispositivos con ancho máximo de 767px */
 @media screen and (max-width: 767px) {
