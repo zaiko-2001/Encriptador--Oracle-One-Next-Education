@@ -3,16 +3,16 @@
 
 /* Estilos para la barra de navegación */
 .navbar {
-    background: url(images/fondo.png), #2c2c2c;
-    background: url(images/fondo.png), -webkit-gradient(linear, right top, left top, from(#2c2c2c), to(#868686));
-    background: url(images/fondo.png), linear-gradient(to left, #2c2c2c, #868686);
+    background: url(images/fondo5.png), #2c2c2c;
+    background: url(images/fondo5.png), -webkit-gradient(linear, right top, left top, from(#2c2c2c), to(#868686));
+    background: url(images/fondo5.png), linear-gradient(to left, #2c2c2c, #868686);
 }
 
 /* Estilos para el cuerpo de la página */
 body {
-    background: url(images/fondo.png), #2c2c2c;
-    background: url(images/fondo.png), -webkit-gradient(linear, right top, left top, from(#2c2c2c), to(#868686));
-    background: url(images/fondo.png), linear-gradient(to left, #2c2c2c, #868686);
+    background: url(images/fondo5.png), #2c2c2c;
+    background: url(images/fondo5.png), -webkit-gradient(linear, right top, left top, from(#2c2c2c), to(#868686));
+    background: url(images/fondo5.png), linear-gradient(to left, #2c2c2c, #868686);
     font-family: "Quicksand", sans-serif; /* Fuente para el cuerpo */
 }
 
@@ -230,6 +230,9 @@ a:hover {
 
 /* Estilos para dispositivos con ancho máximo de 767px */
 @media screen and (max-width: 767px) {
+    .navbar {
+        display: none;
+    }
     .navbar-brand {
         display: none; /* Oculta el logo de la barra de navegación */
     }
