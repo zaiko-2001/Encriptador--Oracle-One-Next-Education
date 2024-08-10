@@ -135,22 +135,4 @@ document.getElementById('placeholder').addEventListener('input', function() {
     }
 });
 
-// Ajustar el diseño en función del tamaño de la ventana
-function adjustLayout() {
-    const width = window.innerWidth;
 
-    if (width < 800) {
-        document.querySelector('body').style.fontSize = '12px';
-        document.querySelector('.header_imagen').style.width = '100px';
-        document.querySelector('.main_titulo').style.width = '80%';
-        document.querySelector('.rectangulo').style.flexDirection = 'column';
-    } else {
-        document.querySelector('body').style.fontSize = '16px';
-        document.querySelector('.header_imagen').style.width = '100px';
-        document.querySelector('.main_titulo').style.width = '50%';
-        document.querySelector('.rectangulo').style.flexDirection = 'row';
-    }
-}
-
-window.addEventListener('resize', adjustLayout);
-window.addEventListener('load', adjustLayout);
